@@ -46,9 +46,9 @@ Its a hybrid of data lake and a data ware house
 
     - its 1 platform that unify all of your data engineering analytics and AI workloads
 
-+---------------------+
-Architecture of Databricks platform 
-+---------------------+
++-------------------------------------+
+| Architecture of Databricks platform |
++-------------------------------------+
 
 - Workspace :  It consists of Data Engineering workspace 
                 - Data warehousing workspace 
@@ -63,15 +63,15 @@ Architecture of Databricks platform
 
     - It's a cloud agnostic platform with AWS, Azure and GCP 
 
-+---------------------+
-Lake house platform has 2 parts 
-+---------------------+
++--------------------------------+
+|Lake house platform has 2 parts |
++--------------------------------+
 
 - Control plane  : Web UI, Cluster Management, Workflows, Notebooks
 - Data plane : Cluster VMs, Storage - DBFS 
 
 +---------------------+
-Spark on Databricks 
+| Spark on Databricks |
 +---------------------+
 
 - In-Memory, distributed data processing 
@@ -80,12 +80,30 @@ Spark on Databricks
 Batch processing and Stream processing 
 - Structured Processing, semi-structured and unstructured data  
 
-+---------------------+
-Databricks File system : 
-+---------------------+
++------------------------+
+| Databricks File system | 
++------------------------+
 
 Databricks uses a file system called the DBFS 
 - Its called Distributed File system 
 - It comes pre-installed in databricks clusters 
 - It has an abstraction layer, where data is persisted to the under laying cloud storage 
 - The files stored in DBFS is actually stored in Database
+
++------------+
+| Delta Lake | 
++------------+
+
+Open-Source storage Framework that brings reliability to data lakes
+
+IS 
+
+- Open Source Technology 
+- Storage Frame work/layer 
+- Enabling / Building Lake house 
+
+IS NOT 
+
+- Proprietary technology 
+- Storage Format/ medium 
+- Data ware house / Database Service 
