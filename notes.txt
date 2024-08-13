@@ -1,0 +1,91 @@
+██████╗  █████╗ ████████╗ █████╗ ██████╗ ██████╗ ██╗ ██████╗██╗  ██╗███████╗
+██╔══██╗██╔══██╗╚══██╔══╝██╔══██╗██╔══██╗██╔══██╗██║██╔════╝██║ ██╔╝██╔════╝
+██║  ██║███████║   ██║   ███████║██████╔╝██████╔╝██║██║     █████╔╝ ███████╗
+██║  ██║██╔══██║   ██║   ██╔══██║██╔══██╗██╔══██╗██║██║     ██╔═██╗ ╚════██║
+██████╔╝██║  ██║   ██║   ██║  ██║██████╔╝██║  ██║██║╚██████╗██║  ██╗███████║
+╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝
+                                                                            
+
+
++---------------------+
+|   Course outline    |
++---------------------+
+
+- Databricks lakehouse platform 
+- ETL with Spark SQL and Python 
+- Incremental Data Processing 
+- Production Pipelines 
+- Data Governance 
+
+Pre-requisites 
+--------------
+
+- SQL language 
+- Basic Python 
+
++---------------------+
+|   Course topics!    |
++---------------------+
+
+
++---------------------+
+|    Introduction     |
++---------------------+
+
++---------------------+
+| What is databricks? |
++---------------------+
+
+    - Its a multi-cloud lake house platform based on Apache Spark!
+
++----------------------+
+| what is a Lake house |
++----------------------+
+
+Its a hybrid of data lake and a data ware house
+
+    - its 1 platform that unify all of your data engineering analytics and AI workloads
+
++---------------------+
+Architecture of Databricks platform 
++---------------------+
+
+- Workspace :  It consists of Data Engineering workspace 
+                - Data warehousing workspace 
+                - Machine Learning workspace 
+
+- It has 2 run time environments 
+    
+    1. Apache Spark 
+    2. Delta lake 
+
+- It has cloud services in all 3 platforms
+
+    - It's a cloud agnostic platform with AWS, Azure and GCP 
+
++---------------------+
+Lake house platform has 2 parts 
++---------------------+
+
+- Control plane  : Web UI, Cluster Management, Workflows, Notebooks
+- Data plane : Cluster VMs, Storage - DBFS 
+
++---------------------+
+Spark on Databricks 
++---------------------+
+
+- In-Memory, distributed data processing 
+- It supports python, scala, sql, R and Java 
+
+Batch processing and Stream processing 
+- Structured Processing, semi-structured and unstructured data  
+
++---------------------+
+Databricks File system : 
++---------------------+
+
+Databricks uses a file system called the DBFS 
+- Its called Distributed File system 
+- It comes pre-installed in databricks clusters 
+- It has an abstraction layer, where data is persisted to the under laying cloud storage 
+- The files stored in DBFS is actually stored in Database
